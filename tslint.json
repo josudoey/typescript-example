@@ -1,0 +1,20 @@
+{
+    "extends": ["tslint:recommended"],
+    "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"],
+    "rules": {
+        "quotemark": ["single"],
+        "trailing-comma": [true, {"multiline": "ignore", "singleline": "never", "esSpecCompliant": "true"}],
+        "object-literal-sort-keys": false,
+        "no-trailing-whitespace": false,
+        "no-console": [false],
+        "no-var-keyword": true,
+        "no-var-requires": false,
+        "interface-name": [false],
+        "no-bitwise": false,
+        "ordered-imports": [false],
+        "only-arrow-functions": [false],
+        "max-line-length": [false],
+        "no-empty-interface": false,
+        "no-unused-expression": [true, "allow-tagged-template"]
+    }
+}
