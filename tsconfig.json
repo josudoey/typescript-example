@@ -1,54 +1,8 @@
 {
+  "extends": "ts-node/node16/tsconfig.json",
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
     "allowJs": true,
-    "moduleResolution": "node",
-    "isolatedModules": false,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "noImplicitAny": false,
-    "removeComments": false,
-    "noLib": false,
-    "preserveConstEnums": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "jsx": "preserve",
-    "outDir": "release",
-    "typeRoots": [
-      "node_modules/@types",
-      "@types"
-    ]
-  },
-  "include": [
-    "scripts/**/*",
-    "src/**/*"
-  ],
-  "exclude": [
-    "typings",
-    "node_modules",
-    "release"
-  ],
-  "awesomeTypescriptLoaderOptions": {
-    "useBabel": true,
-    "useCache": true,
-    "compilerOptions": {
-      "target": "es2015",
-      "module": "es2015",
-      "moduleResolution": "node",
-      "isolatedModules": false,
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "noImplicitAny": false,
-      "removeComments": false,
-      "noLib": false,
-      "noUnusedLocals": true,
-      "preserveConstEnums": true,
-      "suppressImplicitAnyIndexErrors": true,
-      "jsx": "preserve",
-      "typeRoots": [
-        "node_modules/@types",
-        "@types"
-      ]
-    }
+    "strict": true,
+    "noEmit": true
   }
 }
