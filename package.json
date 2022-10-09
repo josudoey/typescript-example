@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "ts-check": "tsc"
+    "ts-check": "tsc --build --verbose"
   },
   "repository": {
     "type": "git",
