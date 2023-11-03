@@ -1,8 +1,0 @@
-{
-  "private": true,
-  "name": "redis4",
-  "version": "0.0.0",
-  "dependencies": {
-    "redis": "^4.3.1"
-  }
-}

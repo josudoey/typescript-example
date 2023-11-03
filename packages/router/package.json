@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "@typescript-example/router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa-router": "^12.0.1"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.6"
+  }
+}

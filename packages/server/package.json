@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "@typescript-example/server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.13.10",
+    "@typescript-example/router": "workspace:^1.0.0",
+    "koa": "^2.14.2"
+  }
+}
